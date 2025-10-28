@@ -5,7 +5,7 @@ metadata:
   name: my-app
   namespace: argocd
   annotations:
-    argocd-image-updater.argoproj.io/image-list: 424432388155.dkr.ecr.us-east-1.amazonaws.com/novaferrydianto/app
+    argocd-image-updater.argoproj.io/image-list: 424432388155.dkr.ecr.us-east-1.amazonaws.com/my-app/app
     argocd-image-updater.argoproj.io/users.update-strategy: semver
     argocd-image-updater.argoproj.io/write-back-method: git
   finalizers:
