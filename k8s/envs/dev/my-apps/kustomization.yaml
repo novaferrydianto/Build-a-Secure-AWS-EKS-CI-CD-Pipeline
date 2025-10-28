@@ -4,7 +4,7 @@ replicas:
 - name: my-app
   count: 2
 images:
-- name: 424432388155.dkr.ecr.us-east-1.amazonaws.com/novaferrydianto/app
+- name: 424432388155.dkr.ecr.us-east-1.amazonaws.com/my-app/app
   newTag: v0.1.1
 resources:
 - ../../../my-app-base
