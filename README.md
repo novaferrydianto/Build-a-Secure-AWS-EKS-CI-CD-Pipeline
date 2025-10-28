@@ -25,7 +25,7 @@ aws eks update-kubeconfig --name dev-main --region us-east-1
 kubectl get pods -A
 kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
 kubectl port-forward svc/argocd-server 8080:80 -n argocd
-ssh-keygen -t ed25519 -C "aputra@antonputra.com" -f ~/.ssh/argocd_ed25519
+ssh-keygen -t ed25519 -C "novaferrydianto@gmail.com" -f ~/.ssh/argocd_ed25519
 cd ../../..
 kubectl apply -f k8s/repo-secret.yaml
 kubectl apply -f k8s/application.yaml
