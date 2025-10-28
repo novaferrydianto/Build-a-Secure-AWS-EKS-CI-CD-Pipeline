@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: 424432388155.dkr.ecr.us-east-1.amazonaws.com/nova/app
+        image: 424432388155.dkr.ecr.us-east-1.amazonaws.com/my-app/app
         ports:
         - name: http
           containerPort: 8080
